@@ -1,0 +1,3 @@
+# Unhandled Error in MATLAB Function
+
+This repository demonstrates a simple MATLAB function and how it handles an error.  The `bug.m` file shows a function that uses the `error` function to halt execution when an invalid input is provided.  This is a common approach, but it's not always ideal.  The `bugSolution.m` file provides a more robust alternative using try-catch blocks for more controlled error handling.  This allows for better error logging, more graceful handling of exceptions, and avoids abrupt termination of the program.
